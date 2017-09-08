@@ -1,11 +1,18 @@
 {
   "name": "jaxwood-editorconfig",
-  "version": "0.3.0",
-  "description": "",
+  "version": "0.4.0",
+  "description": "Editor config settings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaxwood/jaxwood-editorconfig"
+  },
   "main": "index.js",
   "scripts": {
     "postinstall": "cp .editorconfig ../../.editorconfig"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Jacob Lorenzen",
+    "email": "lorenzen.jacob@gmail.com"
+  },
+  "license": "MIT"
 }
